@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		739BF09320EFD97600672A80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739BF09220EFD97600672A80 /* AppDelegate.swift */; };
+		739BF09520EFD97600672A80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739BF09420EFD97600672A80 /* ViewController.swift */; };
+		739BF09820EFD97600672A80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 739BF09620EFD97600672A80 /* Main.storyboard */; };
+		739BF09A20EFD97800672A80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 739BF09920EFD97800672A80 /* Assets.xcassets */; };
+		739BF09D20EFD97800672A80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 739BF09B20EFD97800672A80 /* LaunchScreen.storyboard */; };
+		739BF0A820EFD97800672A80 /* FitWell__HadyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739BF0A720EFD97800672A80 /* FitWell__HadyTests.swift */; };
+		739BF0B320EFD97800672A80 /* FitWell__HadyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739BF0B220EFD97800672A80 /* FitWell__HadyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		739BF0A420EFD97800672A80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 739BF08720EFD97600672A80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 739BF08E20EFD97600672A80;
+			remoteInfo = "FitWell<>Hady";
+		};
+		739BF0AF20EFD97800672A80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 739BF08720EFD97600672A80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 739BF08E20EFD97600672A80;
+			remoteInfo = "FitWell<>Hady";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		739BF08F20EFD97600672A80 /* FitWell<>Hady.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FitWell<>Hady.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		739BF09220EFD97600672A80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		739BF09420EFD97600672A80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		739BF09720EFD97600672A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		739BF09920EFD97800672A80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		739BF09C20EFD97800672A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		739BF09E20EFD97800672A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		739BF0A320EFD97800672A80 /* FitWell<>HadyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FitWell<>HadyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		739BF0A720EFD97800672A80 /* FitWell__HadyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitWell__HadyTests.swift; sourceTree = "<group>"; };
+		739BF0A920EFD97800672A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		739BF0AE20EFD97800672A80 /* FitWell<>HadyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FitWell<>HadyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		739BF0B220EFD97800672A80 /* FitWell__HadyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitWell__HadyUITests.swift; sourceTree = "<group>"; };
+		739BF0B420EFD97800672A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		739BF08C20EFD97600672A80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739BF0A020EFD97800672A80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739BF0AB20EFD97800672A80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		739BF08620EFD97600672A80 = {
+			isa = PBXGroup;
+			children = (
+				739BF09120EFD97600672A80 /* FitWell<>Hady */,
+				739BF0A620EFD97800672A80 /* FitWell<>HadyTests */,
+				739BF0B120EFD97800672A80 /* FitWell<>HadyUITests */,
+				739BF09020EFD97600672A80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		739BF09020EFD97600672A80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				739BF08F20EFD97600672A80 /* FitWell<>Hady.app */,
+				739BF0A320EFD97800672A80 /* FitWell<>HadyTests.xctest */,
+				739BF0AE20EFD97800672A80 /* FitWell<>HadyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		739BF09120EFD97600672A80 /* FitWell<>Hady */ = {
+			isa = PBXGroup;
+			children = (
+				739BF09220EFD97600672A80 /* AppDelegate.swift */,
+				739BF09420EFD97600672A80 /* ViewController.swift */,
+				739BF09620EFD97600672A80 /* Main.storyboard */,
+				739BF09920EFD97800672A80 /* Assets.xcassets */,
+				739BF09B20EFD97800672A80 /* LaunchScreen.storyboard */,
+				739BF09E20EFD97800672A80 /* Info.plist */,
+			);
+			path = "FitWell<>Hady";
+			sourceTree = "<group>";
+		};
+		739BF0A620EFD97800672A80 /* FitWell<>HadyTests */ = {
+			isa = PBXGroup;
+			children = (
+				739BF0A720EFD97800672A80 /* FitWell__HadyTests.swift */,
+				739BF0A920EFD97800672A80 /* Info.plist */,
+			);
+			path = "FitWell<>HadyTests";
+			sourceTree = "<group>";
+		};
+		739BF0B120EFD97800672A80 /* FitWell<>HadyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				739BF0B220EFD97800672A80 /* FitWell__HadyUITests.swift */,
+				739BF0B420EFD97800672A80 /* Info.plist */,
+			);
+			path = "FitWell<>HadyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		739BF08E20EFD97600672A80 /* FitWell<>Hady */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 739BF0B720EFD97800672A80 /* Build configuration list for PBXNativeTarget "FitWell<>Hady" */;
+			buildPhases = (
+				739BF08B20EFD97600672A80 /* Sources */,
+				739BF08C20EFD97600672A80 /* Frameworks */,
+				739BF08D20EFD97600672A80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FitWell<>Hady";
+			productName = "FitWell<>Hady";
+			productReference = 739BF08F20EFD97600672A80 /* FitWell<>Hady.app */;
+			productType = "com.apple.product-type.application";
+		};
+		739BF0A220EFD97800672A80 /* FitWell<>HadyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 739BF0BA20EFD97800672A80 /* Build configuration list for PBXNativeTarget "FitWell<>HadyTests" */;
+			buildPhases = (
+				739BF09F20EFD97800672A80 /* Sources */,
+				739BF0A020EFD97800672A80 /* Frameworks */,
+				739BF0A120EFD97800672A80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				739BF0A520EFD97800672A80 /* PBXTargetDependency */,
+			);
+			name = "FitWell<>HadyTests";
+			productName = "FitWell<>HadyTests";
+			productReference = 739BF0A320EFD97800672A80 /* FitWell<>HadyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		739BF0AD20EFD97800672A80 /* FitWell<>HadyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 739BF0BD20EFD97800672A80 /* Build configuration list for PBXNativeTarget "FitWell<>HadyUITests" */;
+			buildPhases = (
+				739BF0AA20EFD97800672A80 /* Sources */,
+				739BF0AB20EFD97800672A80 /* Frameworks */,
+				739BF0AC20EFD97800672A80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				739BF0B020EFD97800672A80 /* PBXTargetDependency */,
+			);
+			name = "FitWell<>HadyUITests";
+			productName = "FitWell<>HadyUITests";
+			productReference = 739BF0AE20EFD97800672A80 /* FitWell<>HadyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		739BF08720EFD97600672A80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Hadi NourAllah";
+				TargetAttributes = {
+					739BF08E20EFD97600672A80 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					739BF0A220EFD97800672A80 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 739BF08E20EFD97600672A80;
+					};
+					739BF0AD20EFD97800672A80 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 739BF08E20EFD97600672A80;
+					};
+				};
+			};
+			buildConfigurationList = 739BF08A20EFD97600672A80 /* Build configuration list for PBXProject "FitWell<>Hady" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 739BF08620EFD97600672A80;
+			productRefGroup = 739BF09020EFD97600672A80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				739BF08E20EFD97600672A80 /* FitWell<>Hady */,
+				739BF0A220EFD97800672A80 /* FitWell<>HadyTests */,
+				739BF0AD20EFD97800672A80 /* FitWell<>HadyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		739BF08D20EFD97600672A80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739BF09D20EFD97800672A80 /* LaunchScreen.storyboard in Resources */,
+				739BF09A20EFD97800672A80 /* Assets.xcassets in Resources */,
+				739BF09820EFD97600672A80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739BF0A120EFD97800672A80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739BF0AC20EFD97800672A80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		739BF08B20EFD97600672A80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739BF09520EFD97600672A80 /* ViewController.swift in Sources */,
+				739BF09320EFD97600672A80 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739BF09F20EFD97800672A80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739BF0A820EFD97800672A80 /* FitWell__HadyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739BF0AA20EFD97800672A80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739BF0B320EFD97800672A80 /* FitWell__HadyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		739BF0A520EFD97800672A80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 739BF08E20EFD97600672A80 /* FitWell<>Hady */;
+			targetProxy = 739BF0A420EFD97800672A80 /* PBXContainerItemProxy */;
+		};
+		739BF0B020EFD97800672A80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 739BF08E20EFD97600672A80 /* FitWell<>Hady */;
+			targetProxy = 739BF0AF20EFD97800672A80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		739BF09620EFD97600672A80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				739BF09720EFD97600672A80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		739BF09B20EFD97800672A80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				739BF09C20EFD97800672A80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		739BF0B520EFD97800672A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		739BF0B620EFD97800672A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		739BF0B820EFD97800672A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7L6989MMU;
+				INFOPLIST_FILE = "FitWell<>Hady/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hady.FitWell--Hady";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		739BF0B920EFD97800672A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7L6989MMU;
+				INFOPLIST_FILE = "FitWell<>Hady/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hady.FitWell--Hady";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		739BF0BB20EFD97800672A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7L6989MMU;
+				INFOPLIST_FILE = "FitWell<>HadyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hady.FitWell--HadyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitWell<>Hady.app/FitWell<>Hady";
+			};
+			name = Debug;
+		};
+		739BF0BC20EFD97800672A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7L6989MMU;
+				INFOPLIST_FILE = "FitWell<>HadyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hady.FitWell--HadyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitWell<>Hady.app/FitWell<>Hady";
+			};
+			name = Release;
+		};
+		739BF0BE20EFD97800672A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7L6989MMU;
+				INFOPLIST_FILE = "FitWell<>HadyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hady.FitWell--HadyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FitWell<>Hady";
+			};
+			name = Debug;
+		};
+		739BF0BF20EFD97800672A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7L6989MMU;
+				INFOPLIST_FILE = "FitWell<>HadyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hady.FitWell--HadyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FitWell<>Hady";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		739BF08A20EFD97600672A80 /* Build configuration list for PBXProject "FitWell<>Hady" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				739BF0B520EFD97800672A80 /* Debug */,
+				739BF0B620EFD97800672A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		739BF0B720EFD97800672A80 /* Build configuration list for PBXNativeTarget "FitWell<>Hady" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				739BF0B820EFD97800672A80 /* Debug */,
+				739BF0B920EFD97800672A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		739BF0BA20EFD97800672A80 /* Build configuration list for PBXNativeTarget "FitWell<>HadyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				739BF0BB20EFD97800672A80 /* Debug */,
+				739BF0BC20EFD97800672A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		739BF0BD20EFD97800672A80 /* Build configuration list for PBXNativeTarget "FitWell<>HadyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				739BF0BE20EFD97800672A80 /* Debug */,
+				739BF0BF20EFD97800672A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 739BF08720EFD97600672A80 /* Project object */;
+}
