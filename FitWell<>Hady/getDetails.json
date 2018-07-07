@@ -1,0 +1,31 @@
+{
+    "username": "Adriana Lima",
+    "userurl": "https://cdn.cliqueinc.com/posts/192463/exclusive-adriana-lima-talks-junk-food-body-image-and-how-she-smells-so-good-1821021.640x0c.jpg",
+    "location": "London, England",
+    "isValid": true,
+    "lat": 51.509865,
+    "lon": -0.118092,
+    "totaltime": "1D 3H",
+    "totalKM": "153",
+    "totalCAL": "13859",
+    "segments": [
+        {
+            "type": "bus",
+            "title": "Bus",
+            "desc": "It was some time before he optained any answer, and they reply, wehen made, was unpropitious.",
+            "time": "18:16"
+        },
+        {
+            "type": "train",
+            "title": "Train",
+            "desc": "It was some time before he optained any answer.",
+            "time": "20:20"
+        },
+        {
+            "type": "plane",
+            "title": "Aireplane",
+            "desc": "It was some time before he optained any answer.",
+            "time": "22:35"
+        }
+    ]
+}

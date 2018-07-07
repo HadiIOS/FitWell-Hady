@@ -1,0 +1,6 @@
+framework module Pods_FitWell__Hady {
+  umbrella header "Pods-FitWell<>Hady-umbrella.h"
+
+  export *
+  module * { export * }
+}

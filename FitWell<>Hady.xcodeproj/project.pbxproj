@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30097FC264238A4D0A91BB16 /* Pods_FitWell__Hady.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22E9EA9711875701123E405 /* Pods_FitWell__Hady.framework */; };
+		3042AE4E985BE9E156D9F379 /* Pods_FitWell__HadyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC927F687611BB75BB3DB8D /* Pods_FitWell__HadyTests.framework */; };
+		6EEB8C0C85992581D4A4346F /* Pods_FitWell__HadyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9D398EC8137597A2C59ABA /* Pods_FitWell__HadyUITests.framework */; };
+		730BB25220F00EBE000CB477 /* Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730BB25120F00EBE000CB477 /* Race.swift */; };
+		7382616020F01DBC00D791E8 /* RaceListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7382615F20F01DBC00D791E8 /* RaceListTableViewCell.swift */; };
+		7382616220F025C600D791E8 /* getDetails.json in Resources */ = {isa = PBXBuildFile; fileRef = 7382616120F025C600D791E8 /* getDetails.json */; };
+		7382616420F02FBB00D791E8 /* RaceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7382616320F02FBB00D791E8 /* RaceDetails.swift */; };
+		7382616A20F032A800D791E8 /* MapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7382616920F032A800D791E8 /* MapTableViewCell.swift */; };
+		7382616C20F0338900D791E8 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7382616B20F0338900D791E8 /* UserTableViewCell.swift */; };
+		7382616E20F0346700D791E8 /* TotalDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7382616D20F0346700D791E8 /* TotalDataTableViewCell.swift */; };
+		7382617020F034F300D791E8 /* SegmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7382616F20F034F300D791E8 /* SegmentTableViewCell.swift */; };
+		7382617220F035D400D791E8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7382617120F035D400D791E8 /* MapViewController.swift */; };
 		739BF09320EFD97600672A80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739BF09220EFD97600672A80 /* AppDelegate.swift */; };
 		739BF09520EFD97600672A80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739BF09420EFD97600672A80 /* ViewController.swift */; };
 		739BF09820EFD97600672A80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 739BF09620EFD97600672A80 /* Main.storyboard */; };
@@ -14,6 +26,10 @@
 		739BF09D20EFD97800672A80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 739BF09B20EFD97800672A80 /* LaunchScreen.storyboard */; };
 		739BF0A820EFD97800672A80 /* FitWell__HadyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739BF0A720EFD97800672A80 /* FitWell__HadyTests.swift */; };
 		739BF0B320EFD97800672A80 /* FitWell__HadyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739BF0B220EFD97800672A80 /* FitWell__HadyUITests.swift */; };
+		739BF0C120EFDC4D00672A80 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739BF0C020EFDC4C00672A80 /* Extensions.swift */; };
+		739BF0C320EFE08F00672A80 /* BaseUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739BF0C220EFE08F00672A80 /* BaseUtil.swift */; };
+		739BF0C520EFFA8F00672A80 /* races.json in Resources */ = {isa = PBXBuildFile; fileRef = 739BF0C420EFFA8F00672A80 /* races.json */; };
+		739CF84120EFFE6D0010A507 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739CF84020EFFE6D0010A507 /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F9D398EC8137597A2C59ABA /* Pods_FitWell__HadyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitWell__HadyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46A31D32B4788857D5CD0732 /* Pods-FitWell<>HadyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitWell<>HadyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitWell<>HadyTests/Pods-FitWell<>HadyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		730BB25120F00EBE000CB477 /* Race.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Race.swift; sourceTree = "<group>"; };
+		7382615F20F01DBC00D791E8 /* RaceListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceListTableViewCell.swift; sourceTree = "<group>"; };
+		7382616120F025C600D791E8 /* getDetails.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getDetails.json; sourceTree = "<group>"; };
+		7382616320F02FBB00D791E8 /* RaceDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceDetails.swift; sourceTree = "<group>"; };
+		7382616920F032A800D791E8 /* MapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTableViewCell.swift; sourceTree = "<group>"; };
+		7382616B20F0338900D791E8 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		7382616D20F0346700D791E8 /* TotalDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalDataTableViewCell.swift; sourceTree = "<group>"; };
+		7382616F20F034F300D791E8 /* SegmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentTableViewCell.swift; sourceTree = "<group>"; };
+		7382617120F035D400D791E8 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		739BF08F20EFD97600672A80 /* FitWell<>Hady.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FitWell<>Hady.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		739BF09220EFD97600672A80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		739BF09420EFD97600672A80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +74,17 @@
 		739BF0AE20EFD97800672A80 /* FitWell<>HadyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FitWell<>HadyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		739BF0B220EFD97800672A80 /* FitWell__HadyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitWell__HadyUITests.swift; sourceTree = "<group>"; };
 		739BF0B420EFD97800672A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		739BF0C020EFDC4C00672A80 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		739BF0C220EFE08F00672A80 /* BaseUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUtil.swift; sourceTree = "<group>"; };
+		739BF0C420EFFA8F00672A80 /* races.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = races.json; sourceTree = "<group>"; };
+		739CF84020EFFE6D0010A507 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		7A1CB0CD4992F5FC65515C84 /* Pods-FitWell<>Hady.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitWell<>Hady.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitWell<>Hady/Pods-FitWell<>Hady.release.xcconfig"; sourceTree = "<group>"; };
+		AFC927F687611BB75BB3DB8D /* Pods_FitWell__HadyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitWell__HadyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B109370DB8718EC74E4A3824 /* Pods-FitWell<>HadyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitWell<>HadyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitWell<>HadyUITests/Pods-FitWell<>HadyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C22E9EA9711875701123E405 /* Pods_FitWell__Hady.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitWell__Hady.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7D37575CB73C32A95904CBC /* Pods-FitWell<>HadyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitWell<>HadyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitWell<>HadyUITests/Pods-FitWell<>HadyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCF028919AE4F7C27FD97773 /* Pods-FitWell<>HadyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitWell<>HadyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitWell<>HadyTests/Pods-FitWell<>HadyTests.release.xcconfig"; sourceTree = "<group>"; };
+		E8F7F5B1B8FFD90120CA6D6B /* Pods-FitWell<>Hady.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitWell<>Hady.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitWell<>Hady/Pods-FitWell<>Hady.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30097FC264238A4D0A91BB16 /* Pods_FitWell__Hady.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3042AE4E985BE9E156D9F379 /* Pods_FitWell__HadyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +108,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EEB8C0C85992581D4A4346F /* Pods_FitWell__HadyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44D17C7749D9AD131FE39C7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C22E9EA9711875701123E405 /* Pods_FitWell__Hady.framework */,
+				AFC927F687611BB75BB3DB8D /* Pods_FitWell__HadyTests.framework */,
+				0F9D398EC8137597A2C59ABA /* Pods_FitWell__HadyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		730BB25020F00090000CB477 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				739CF84020EFFE6D0010A507 /* Service.swift */,
+				730BB25120F00EBE000CB477 /* Race.swift */,
+				7382616320F02FBB00D791E8 /* RaceDetails.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		7382616620F0326400D791E8 /* List View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				739BF09420EFD97600672A80 /* ViewController.swift */,
+				7382615F20F01DBC00D791E8 /* RaceListTableViewCell.swift */,
+			);
+			path = "List View Controller";
+			sourceTree = "<group>";
+		};
+		7382616720F0327200D791E8 /* Map View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7382617120F035D400D791E8 /* MapViewController.swift */,
+				7382616820F0327D00D791E8 /* Cells */,
+			);
+			name = "Map View Controller";
+			path = "List View Controller";
+			sourceTree = "<group>";
+		};
+		7382616820F0327D00D791E8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7382616920F032A800D791E8 /* MapTableViewCell.swift */,
+				7382616B20F0338900D791E8 /* UserTableViewCell.swift */,
+				7382616D20F0346700D791E8 /* TotalDataTableViewCell.swift */,
+				7382616F20F034F300D791E8 /* SegmentTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		739BF08620EFD97600672A80 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +172,8 @@
 				739BF0A620EFD97800672A80 /* FitWell<>HadyTests */,
 				739BF0B120EFD97800672A80 /* FitWell<>HadyUITests */,
 				739BF09020EFD97600672A80 /* Products */,
+				E32B0A7E566175E9B7F14472 /* Pods */,
+				44D17C7749D9AD131FE39C7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +191,17 @@
 			isa = PBXGroup;
 			children = (
 				739BF09220EFD97600672A80 /* AppDelegate.swift */,
-				739BF09420EFD97600672A80 /* ViewController.swift */,
+				7382616620F0326400D791E8 /* List View Controller */,
+				7382616720F0327200D791E8 /* Map View Controller */,
 				739BF09620EFD97600672A80 /* Main.storyboard */,
 				739BF09920EFD97800672A80 /* Assets.xcassets */,
+				739BF0C220EFE08F00672A80 /* BaseUtil.swift */,
+				739BF0C020EFDC4C00672A80 /* Extensions.swift */,
+				730BB25020F00090000CB477 /* Service */,
 				739BF09B20EFD97800672A80 /* LaunchScreen.storyboard */,
 				739BF09E20EFD97800672A80 /* Info.plist */,
+				739BF0C420EFFA8F00672A80 /* races.json */,
+				7382616120F025C600D791E8 /* getDetails.json */,
 			);
 			path = "FitWell<>Hady";
 			sourceTree = "<group>";
@@ -125,6 +224,19 @@
 			path = "FitWell<>HadyUITests";
 			sourceTree = "<group>";
 		};
+		E32B0A7E566175E9B7F14472 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8F7F5B1B8FFD90120CA6D6B /* Pods-FitWell<>Hady.debug.xcconfig */,
+				7A1CB0CD4992F5FC65515C84 /* Pods-FitWell<>Hady.release.xcconfig */,
+				46A31D32B4788857D5CD0732 /* Pods-FitWell<>HadyTests.debug.xcconfig */,
+				CCF028919AE4F7C27FD97773 /* Pods-FitWell<>HadyTests.release.xcconfig */,
+				C7D37575CB73C32A95904CBC /* Pods-FitWell<>HadyUITests.debug.xcconfig */,
+				B109370DB8718EC74E4A3824 /* Pods-FitWell<>HadyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 739BF0B720EFD97800672A80 /* Build configuration list for PBXNativeTarget "FitWell<>Hady" */;
 			buildPhases = (
+				B95C024B41F0E70681D39CA3 /* [CP] Check Pods Manifest.lock */,
 				739BF08B20EFD97600672A80 /* Sources */,
 				739BF08C20EFD97600672A80 /* Frameworks */,
 				739BF08D20EFD97600672A80 /* Resources */,
+				8EE3C702F8A4AD02F6B813D5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +263,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 739BF0BA20EFD97800672A80 /* Build configuration list for PBXNativeTarget "FitWell<>HadyTests" */;
 			buildPhases = (
+				D97532D95B3E66290D167E7F /* [CP] Check Pods Manifest.lock */,
 				739BF09F20EFD97800672A80 /* Sources */,
 				739BF0A020EFD97800672A80 /* Frameworks */,
 				739BF0A120EFD97800672A80 /* Resources */,
@@ -167,6 +282,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 739BF0BD20EFD97800672A80 /* Build configuration list for PBXNativeTarget "FitWell<>HadyUITests" */;
 			buildPhases = (
+				2883D0AA25D37A5AF32CE0C0 /* [CP] Check Pods Manifest.lock */,
 				739BF0AA20EFD97800672A80 /* Sources */,
 				739BF0AB20EFD97800672A80 /* Frameworks */,
 				739BF0AC20EFD97800672A80 /* Resources */,
@@ -229,7 +345,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				739BF0C520EFFA8F00672A80 /* races.json in Resources */,
 				739BF09D20EFD97800672A80 /* LaunchScreen.storyboard in Resources */,
+				7382616220F025C600D791E8 /* getDetails.json in Resources */,
 				739BF09A20EFD97800672A80 /* Assets.xcassets in Resources */,
 				739BF09820EFD97600672A80 /* Main.storyboard in Resources */,
 			);
@@ -251,12 +369,100 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2883D0AA25D37A5AF32CE0C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitWell<>HadyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EE3C702F8A4AD02F6B813D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FitWell<>Hady/Pods-FitWell<>Hady-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitWell<>Hady/Pods-FitWell<>Hady-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B95C024B41F0E70681D39CA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitWell<>Hady-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D97532D95B3E66290D167E7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitWell<>HadyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		739BF08B20EFD97600672A80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				739BF0C120EFDC4D00672A80 /* Extensions.swift in Sources */,
+				7382616020F01DBC00D791E8 /* RaceListTableViewCell.swift in Sources */,
+				7382616A20F032A800D791E8 /* MapTableViewCell.swift in Sources */,
+				7382616E20F0346700D791E8 /* TotalDataTableViewCell.swift in Sources */,
 				739BF09520EFD97600672A80 /* ViewController.swift in Sources */,
+				7382616C20F0338900D791E8 /* UserTableViewCell.swift in Sources */,
+				7382617220F035D400D791E8 /* MapViewController.swift in Sources */,
+				739CF84120EFFE6D0010A507 /* Service.swift in Sources */,
+				7382617020F034F300D791E8 /* SegmentTableViewCell.swift in Sources */,
+				739BF0C320EFE08F00672A80 /* BaseUtil.swift in Sources */,
+				7382616420F02FBB00D791E8 /* RaceDetails.swift in Sources */,
+				730BB25220F00EBE000CB477 /* Race.swift in Sources */,
 				739BF09320EFD97600672A80 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +634,7 @@
 		};
 		739BF0B820EFD97800672A80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F7F5B1B8FFD90120CA6D6B /* Pods-FitWell<>Hady.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +653,7 @@
 		};
 		739BF0B920EFD97800672A80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A1CB0CD4992F5FC65515C84 /* Pods-FitWell<>Hady.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +672,7 @@
 		};
 		739BF0BB20EFD97800672A80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46A31D32B4788857D5CD0732 /* Pods-FitWell<>HadyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +694,7 @@
 		};
 		739BF0BC20EFD97800672A80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCF028919AE4F7C27FD97773 /* Pods-FitWell<>HadyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +716,7 @@
 		};
 		739BF0BE20EFD97800672A80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7D37575CB73C32A95904CBC /* Pods-FitWell<>HadyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +737,7 @@
 		};
 		739BF0BF20EFD97800672A80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B109370DB8718EC74E4A3824 /* Pods-FitWell<>HadyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
